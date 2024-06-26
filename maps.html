@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vivi Scoppito</title>
+  <meta name="author" content="Alessio Baglione & Nicole Baglione">
+  <meta description="Il sito mette in luce le possibilità che il comune di Scoppito offre nel suo territorio">
+  <meta keywords="Territorio, Scoppito, Escursionismo">
+
+  
+  <!-- Flavicon page -->
+  <link rel="icon" type="image/png" href="flavicon.png">
+  <!-- Google Font - Body -->  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Icon-Footer -->
+  <script src="https://kit.fontawesome.com/b25004dd6d.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+  <!-- Menù in alto --> 
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="index.html">
+        <img id="header__logo__img" src="Immagini/A-Header/Vivi Scoppito Logo.png" alt="Logo Vivi Scoppito" style="height: 60px;">
+      </a>
+      <ul class="header__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attività.html">Attività</a></li>
+        <li><a href="foto_gallery.html">Foto Gallery</a></li>
+        <li><a href="maps.html">Maps</a></li>
+        <li><a href="punti_di_interesse.html">Punti di interesse</a></li>
+      </ul>
+      <div class="header__quick">
+        <a style="color: #fff;" href="https://www.comune.scoppito.aq.it/" target="blank">Contacts</a>
+        <div class="icon-hamburger">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    
+
+    <!-- Hero -->
+    <div class="hero_maps">
+      <h1>Maps</h1>
+    </div>
+
+
+    <!-- Frame Mappa Generale -->
+    <div class="grid maps-generale">
+      <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1PsBGls6HrLSmRXNwEFJBnbMo2P5IRrw&ehbc=2E312F" width="1250" height="650"></iframe>    
+    </div>
+
+
+  </main>
+
+
+  <!-- footer  -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Informazioni</h4>
+          <ul>
+            <li><a href="index.html#ancoraggio__chi__siamo">Chi siamo</a></li>
+            <li><a href="index.html#intro-team-section">Il nostro team</a></li>
+            <li><a href="https://www.comune.scoppito.aq.it/" target="blank">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="spacer" id="spacer-mobile"></div>
+        <div class="footer-column">
+          <h4>Risorse</h4>
+          <ul>
+            <li><a href="attività.html">Attività</a></li>
+            <li><a href="foto_gallery.html">Foto gallery</a></li>
+            <li><a href="maps.html">Maps</a></li>
+            <li><a href="punti_di_interesse.html">Punti d'interesse</a></li> 
+            <li><a href="associazioni.html">Associazioni nei dintorni</a></li>
+          </ul>
+        </div>
+        <div class="spacer" id="spacer-mobile"></div>
+        <div class="footer-column">
+          <h4 style="justify-content: center;">Social</h4>
+          <ul class="social-icons" style="justify-content: center;">
+            <li><a href="https://www.comune.scoppito.aq.it/" target="blank" class="icon-website"><i class="fa-regular fa-window-maximize"></i></a></li>
+            <li><a href="https://www.facebook.com/comunescoppito/" target="blank" class="icon-facebook"><i class=""><i class="fa-brands fa-facebook"></i></i></a></li>
+            <!-- <li><a href="https://www.instagram.com/prolocoscoppito/" target="blank" class="icon-instagram"><i class="fa-brands fa-instagram"></i></a></li>  -->
+          </ul>
+          <div class="spacer" id="spacer-mobile-1"  style="height: 30px;"></div>
+          <div class="spacer" style="height: fit-content">
+            <a href="https://www.comune.scoppito.aq.it/" target="blank"><img src="Immagini/A-Footer/Logo Scoppito.png" alt="Logo Scoppito" id="logo-scoppito"></a>
+            <a href="https://www.csvabruzzo.it/" target="blank"><img src="Immagini/A-Footer/Logo Servizio Civile.png" alt="Logo Servizio Civile" id="logo-servizio-civile"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Vivi Scoppito</p>
+      </div>
+    </div>
+    <div class="spacer" id="spacer-mobile-end"></div>
+  </footer>
+
+  
+  <script>
+
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+            document.body.classList.toggle('menu-open');
+    });
+
+  </script>
+
+
+</body>
+</html>
+
